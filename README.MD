@@ -1,5 +1,9 @@
 # Desafio BI Alura - Semana 1
 
+O Dashboard pode ser acessado através [deste link](https://app.powerbi.com/view?r=eyJrIjoiYzVhMmVhY2QtMDllMS00YTYyLTg0YTEtY2FiNWM0NGJhZDYzIiwidCI6ImFmOTdjMzM5LTE3ODMtNDIzZi1iZGNmLTQ5ODViZmMwOTQ3ZSJ9).
+
+<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzVhMmVhY2QtMDllMS00YTYyLTg0YTEtY2FiNWM0NGJhZDYzIiwidCI6ImFmOTdjMzM5LTE3ODMtNDIzZi1iZGNmLTQ5ODViZmMwOTQ3ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
+
 ## Sobre o desafio
 
 Três empresas nos contrataram para entender suas bases de dados e exibir informações relevantes com o objetivo de auxiliar suas tomadas de decisão.
@@ -37,3 +41,15 @@ Os dados após tratamento inicial estão disponibilzados na pasta `Dados Tratado
 Os scripts em Python utilizados para o tratamento inicial estão na pasta `Scrips de Tratamento` devidamente documentados.
 
 ## Parte 2 - Criação do Dashboard
+
+O Dashboard foi criado utilizando o Microsoft Power BI. A criação de métricas e novas colunas foram feitas utilizando o Power Query dentro do própprio programa.
+
+### Estrutura do dashboard
+
+Para melhor apresentar os dados, o dashboard foi dividido em três páginas
+- A primeira apresenta infomações sobre as entregas: Quantidade de entregas feitas no Prazo, Entregas Atrasadas e em trânsito; Apresenta a distribuição destas em relação ao total de entregas; Apresenta a evolução da quantidade de entregas no prazo e atrasadas ao longo do tempo;
+![Entregas](./Imagens/Entregas.png)
+- A segunda página apresenta informações sobre S2D (Ship 2 Door), uma métrica que avalia quantos dias um pedido dura, desde a realizaçao até a entrega. Mostra-se o S2D médio, máximo e mínimo assim como a quantidade de entregas que duraram mais ou menos que o S2D médio
+![S2D](./Imagens/S2D.png)
+- A terceira página mostra a evolução do estoque médio ao longo do tempo assim como a participação de cada categoria de produto no faturamento e no total de vendas.
+![Estoque](./Imagens/Estoque.png)

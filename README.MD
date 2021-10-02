@@ -1,9 +1,6 @@
 # Desafio BI Alura - Semana 1
 
 O Dashboard pode ser acessado através [deste link](https://app.powerbi.com/view?r=eyJrIjoiYzVhMmVhY2QtMDllMS00YTYyLTg0YTEtY2FiNWM0NGJhZDYzIiwidCI6ImFmOTdjMzM5LTE3ODMtNDIzZi1iZGNmLTQ5ODViZmMwOTQ3ZSJ9).
-
-<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYzVhMmVhY2QtMDllMS00YTYyLTg0YTEtY2FiNWM0NGJhZDYzIiwidCI6ImFmOTdjMzM5LTE3ODMtNDIzZi1iZGNmLTQ5ODViZmMwOTQ3ZSJ9" frameborder="0" allowFullScreen="true"></iframe>
-
 ## Sobre o desafio
 
 Três empresas nos contrataram para entender suas bases de dados e exibir informações relevantes com o objetivo de auxiliar suas tomadas de decisão.
